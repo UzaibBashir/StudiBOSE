@@ -1,3 +1,5 @@
+Link: https://uzaibbashir.github.io/StudiBOSE/
+
 # StudiBOSE Hub (Mobile-First)
 
 A minimalist, mobile-first React + Tailwind site for JKBOSE resources: notes, previous year papers, textbooks, and images. Built with Vite.
