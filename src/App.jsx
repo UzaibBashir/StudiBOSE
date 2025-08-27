@@ -10,7 +10,10 @@ function App() {
     <div className="min-h-screen bg-gradient-to-b from-indigo-900 via-indigo-800 to-indigo-900 text-white flex flex-col">
       <header className="sticky top-0 z-20 backdrop-blur bg-indigo-900/60 border-b border-white/10">
         <div className="max-w-md mx-auto px-4 py-3 flex items-center justify-between">
-          <div className="text-lg font-semibold tracking-wide">StudiBOSE</div>
+          <div className="text-center">
+            <div className="text-lg font-semibold tracking-wide">StudiBOSE</div>
+            <div className="text-[10px] text-indigo-300/50 -mt-1">Uzaib Bashir</div>
+          </div>
           <div className="flex items-center space-x-2">
             <label htmlFor="class-select" className="text-indigo-200 text-sm">Class:</label>
             <select
