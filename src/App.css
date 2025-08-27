@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.card-surface {
+  @apply bg-white/10 backdrop-blur rounded-2xl border border-white/10;
+}
+
+.section-title {
+  @apply text-xl font-semibold mb-3;
+}
