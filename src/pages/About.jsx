@@ -4,9 +4,10 @@ export default function About() {
       <div className="card-surface p-4">
         <h2 className="section-title">About JKBOSE Hub</h2>
         <p className="text-indigo-100/80 text-sm">
-          A minimalist resource hub for JKBOSE students. This community project
-          aggregates links to Google Drive folders and files for quick access to
-          notes, past papers, textbooks and visuals.
+          Uzaib Bashir Malik
+          Uzaib Bashir Malik
+          Uzaib Bashir Malik
+          Uzaib Bashir Malik
         </p>
       </div>
       <div className="card-surface p-4">
