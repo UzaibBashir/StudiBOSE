@@ -8,7 +8,7 @@ export default function ResourceList({ items, emptyText }) {
     const q = query.trim().toLowerCase()
     if (!q) return items
     return items.filter((it) =>
-      [it.title, it.subtitle, it.class, it.subject, it.year]
+      [it.title, it.subtitle, it.class, it.subject, it.year, it.type]
         .filter(Boolean)
         .join(' ')
         .toLowerCase()

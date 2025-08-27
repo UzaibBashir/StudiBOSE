@@ -1,14 +1,20 @@
 import ResourceList from '../shared/ResourceList.jsx'
+import { useClass } from '../context/ClassContext.jsx'
 import { papers } from '../resources/data.js'
 
 export default function Papers() {
+  const { selectedClass } = useClass()
+  
+  // Filter papers based on selected class
+  const filteredPapers = papers.filter(paper => paper.class === selectedClass)
+
   return (
     <div className="space-y-4">
       <div className="card-surface p-4">
-        <h2 className="section-title">Previous Year Papers</h2>
-        <p className="text-indigo-100/80 text-sm">Past papers organized by year and class.</p>
+        <h2 className="section-title">Class {selectedClass} Previous Year Papers</h2>
+        <p className="text-indigo-100/80 text-sm">Past papers organized by year and subject for Class {selectedClass}.</p>
       </div>
-      <ResourceList items={papers} emptyText="Papers coming soon" />
+      <ResourceList items={filteredPapers} emptyText={`No papers available for Class ${selectedClass}`} />
     </div>
   )
 }

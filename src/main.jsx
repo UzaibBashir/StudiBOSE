@@ -8,7 +8,6 @@ import Notes from './pages/Notes.jsx'
 import Papers from './pages/Papers.jsx'
 import Books from './pages/Books.jsx'
 import Images from './pages/Images.jsx'
-import About from './pages/About.jsx'
 import { ClassProvider } from './context/ClassContext.jsx'
 
 const router = createBrowserRouter([
@@ -21,7 +20,6 @@ const router = createBrowserRouter([
       { path: 'papers', element: <Papers /> },
       { path: 'books', element: <Books /> },
       { path: 'images', element: <Images /> },
-      { path: 'about', element: <About /> },
     ],
   },
 ])
