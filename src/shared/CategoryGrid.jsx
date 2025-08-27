@@ -4,7 +4,7 @@ const items = [
   { title: 'Notes', to: '/notes', color: 'from-orange-400 to-pink-500' },
   { title: 'Papers', to: '/papers', color: 'from-indigo-400 to-blue-500' },
   { title: 'Books', to: '/books', color: 'from-emerald-400 to-teal-500' },
-  { title: 'Images', to: '/images', color: 'from-violet-400 to-fuchsia-500' },
+  { title: 'Community', to: '/community', color: 'from-violet-400 to-fuchsia-500' },
 ]
 
 export default function CategoryGrid() {

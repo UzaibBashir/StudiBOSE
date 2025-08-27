@@ -7,7 +7,7 @@ import Home from './pages/Home.jsx'
 import Notes from './pages/Notes.jsx'
 import Papers from './pages/Papers.jsx'
 import Books from './pages/Books.jsx'
-import Images from './pages/Images.jsx'
+import Community from './pages/Community.jsx'
 import { ClassProvider } from './context/ClassContext.jsx'
 
 const router = createBrowserRouter([
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       { path: 'notes', element: <Notes /> },
       { path: 'papers', element: <Papers /> },
       { path: 'books', element: <Books /> },
-      { path: 'images', element: <Images /> },
+      { path: 'community', element: <Community /> },
     ],
   },
 ])
