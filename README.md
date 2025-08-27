@@ -1,13 +1,6 @@
-# JKBOSE Hub (Mobile-First)
+# StudiBOSE Hub (Mobile-First)
 
 A minimalist, mobile-first React + Tailwind site for JKBOSE resources: notes, previous year papers, textbooks, and images. Built with Vite.
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
 
 ## Google Drive links
 
@@ -23,6 +16,3 @@ npm run dev
 - Pages: `Home`, `Notes`, `Papers`, `Books`, `Images`, `About` via React Router.
 - UI: `SearchBar`, `CategoryGrid`, `ResourceList`, `ResourceCard`, `AdBlock`.
 
-## Styling
-
-- Tailwind is enabled via `@import "tailwindcss";` in CSS files and `@tailwindcss/vite` plugin in `vite.config.js`.
