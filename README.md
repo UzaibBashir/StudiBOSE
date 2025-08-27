@@ -1,4 +1,4 @@
-Link: https://uzaibbashir.github.io/StudiBOSE/
+Link: https://studi-bose.vercel.app/
 
 # StudiBOSE Hub (Mobile-First)
 
