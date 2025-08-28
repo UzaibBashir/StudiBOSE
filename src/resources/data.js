@@ -318,7 +318,56 @@ export const notes = [
     type: 'JKBOSE Textbook',
     driveUrl: 'https://jkbose.nic.in/textbookclass10.html',
   },
+  {
+    id: 'jkb-10-history1',
+    title: 'History Part-I',
+    subject: 'History',
+    class: '10',
+    type: 'JKBOSE Textbook',
+    driveUrl: 'https://jkbose.nic.in/pdf/Class%2010th%20History%20part-1.pdf',
+  },
+  {
+    id: 'jkb-10-history1',
+    title: 'History Part-II',
+    subject: 'History',
+    class: '10',
+    type: 'JKBOSE Textbook',
+    driveUrl: 'https://jkbose.nic.in/pdf/Class%2010th%20History%20part-2.pdf',
+  },
+  {
+    id: 'jkb-10-history1',
+    title: 'History Part-III',
+    subject: 'History',
+    class: '10',
+    type: 'JKBOSE Textbook',
+    driveUrl: 'https://jkbose.nic.in/pdf/Class%2010th%20History%20part-3.pdf',
+  },
+  {
+    id: 'jkb-10-geography',
+    title: 'Geography',
+    subject: 'Geography',
+    class: '10',
+    type: 'JKBOSE Textbook',
+    driveUrl: 'https://jkbose.nic.in/pdf/Class10thgeography.pdf',
+  },
+  {
+    id: 'jkb-10-economics',
+    title: 'Economics',
+    subject: 'Economics',
+    class: '10',
+    type: 'JKBOSE Textbook',
+    driveUrl: 'https://jkbose.nic.in/pdf/class10thdisastermanagement.pdf',
+  },
+  {
+    id: 'jkb-10-democratic',
+    title: 'Democratic Politics',
+    subject: 'Democratic Politics',
+    class: '10',
+    type: 'JKBOSE Textbook',
+    driveUrl: 'https://jkbose.nic.in/pdf/Class10thpoliticalscience.pdf',
+  },
   
+
 
   // JKBOSE Official Textbooks - Class 11
   {

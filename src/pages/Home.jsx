@@ -7,8 +7,6 @@ export default function Home() {
     <div className="space-y-4">
       <AdBlock />
       
-      <NotificationSection />
-      
       <div className="card-surface p-4">
         <h2 className="section-title">About StudiBOSE</h2>
         <p className="text-indigo-100/80 text-sm leading-relaxed">
@@ -26,6 +24,8 @@ export default function Home() {
           Study smarter, not harder, with StudiBOSE!
         </p>
       </div>
+
+      <NotificationSection />
 
       <CategoryGrid />
     </div>
