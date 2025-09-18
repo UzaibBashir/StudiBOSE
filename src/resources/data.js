@@ -202,46 +202,54 @@ export const notes = [
     driveUrl: 'https://drive.google.com/your-notes-link-24',
   },
 
-  // JKBOSE Official Textbooks - Class 9
+  // Class 9 Books from JKBOSE
   {
-    id: 'jkb-9-english',
-    title: 'Class 9 English Textbook',
-    subject: 'English',
-    class: '9',
-    type: 'JKBOSE Textbook',
-    driveUrl: 'https://jkbose.nic.in/textbookclass9.html',
-  },
-  {
-    id: 'jkb-9-hindi',
-    title: 'Class 9 Hindi Textbook',
-    subject: 'Hindi',
-    class: '9',
-    type: 'JKBOSE Textbook',
-    driveUrl: 'https://jkbose.nic.in/textbookclass9.html',
-  },
-  {
-    id: 'jkb-9-math',
+    id: 'b-9-math',
     title: 'Class 9 Mathematics Textbook',
+    subtitle: 'JKBOSE Official',
+    class: '9',
     subject: 'Mathematics',
-    class: '9',
-    type: 'JKBOSE Textbook',
-    driveUrl: 'https://jkbose.nic.in/textbookclass9.html',
+    driveUrl: 'https://jkbose.nic.in/pdf/Math%20IX%201%20to%207%20Chapter%20x%2016%20-2024.pdf'  // Chapters PDF from JKBOSE :contentReference[oaicite:0]{index=0}
   },
   {
-    id: 'jkb-9-science',
-    title: 'Class 9 Science Textbook',
-    subject: 'Science',
+    id: 'b-9-eng',
+    title: 'Class 9 English (Tulip Series Book IX)',
+    subtitle: 'JKBOSE Official',
     class: '9',
-    type: 'JKBOSE Textbook',
-    driveUrl: 'https://jkbose.nic.in/textbookclass9.html',
+    subject: 'English',
+    driveUrl: 'https://jkbose.nic.in/pdf/Class9thEnglish.pdf'  // Tulip Series English IX :contentReference[oaicite:1]{index=1}
   },
   {
-    id: 'jkb-9-social',
-    title: 'Class 9 Social Studies Textbook',
-    subject: 'Social Studies',
+    id: 'b-9-geo',
+    title: 'Class 9 Geography Textbook',
+    subtitle: 'JKBOSE Official',
     class: '9',
-    type: 'JKBOSE Textbook',
-    driveUrl: 'https://jkbose.nic.in/textbookclass9.html',
+    subject: 'Geography',
+    driveUrl: 'https://jkbose.nic.in/pdf/Class9thgeography.pdf'  // Geography IX :contentReference[oaicite:2]{index=2}
+  },
+  {
+    id: 'b-9-hist',
+    title: 'Class 9 History: India & Contemporary World-I',
+    subtitle: 'JKBOSE Official',
+    class: '9',
+    subject: 'History',
+    driveUrl: 'https://jkbose.nic.in/pdf/Class%209th%20History.pdf'  // History IX :contentReference[oaicite:3]{index=3}
+  },
+  {
+    id: 'b-9-eng-lit-tulip-full',
+    title: 'Class 9 English (Tulip Series) Full Book IX',
+    subtitle: 'JKBOSE Official',
+    class: '9',
+    subject: 'English',
+    driveUrl: 'https://jkbose.nic.in/PageDoc/637278711905160123Tulip_Series_English_IX_Gita%20Offset_Chap_0_to_Chap_24.pdf'  // Full English IX book (Tulip) :contentReference[oaicite:4]{index=4}
+  },
+  {
+    id: 'b-9-economics',
+    title: 'Class 9 Economics, Disaster Management & RSE',
+    subtitle: 'JKBOSE Official',
+    class: '9',
+    subject: 'Economics',
+    driveUrl: 'https://jkbose.nic.in/pdf/TextbookEconomicsClass%209th.pdf'  // Economics etc for IX :contentReference[oaicite:5]{index=5}
   },
 
   // JKBOSE Official Textbooks - Class 10

@@ -1,6 +1,7 @@
 import ResourceList from '../shared/ResourceList.jsx'
 import { useClass } from '../context/ClassContext.jsx'
 import { papers } from '../resources/data.js'
+import UnderDevelopment from './UnderDevelopment.jsx'
 
 export default function Papers() {
   const { selectedClass } = useClass()
@@ -14,7 +15,8 @@ export default function Papers() {
         <h2 className="section-title">Class {selectedClass} Previous Year Papers</h2>
         <p className="text-indigo-100/80 text-sm">Past papers organized by year and subject for Class {selectedClass}.</p>
       </div>
-      <ResourceList items={filteredPapers} emptyText={`No papers available for Class ${selectedClass}`} />
+      {/* <ResourceList items={filteredPapers} emptyText={`No papers available for Class ${selectedClass}`} /> */}
+      <UnderDevelopment/>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import ResourceList from '../shared/ResourceList.jsx'
 import { useClass } from '../context/ClassContext.jsx'
 import { books } from '../resources/data.js'
+import UnderDevelopment from './UnderDevelopment.jsx'
 
 export default function Books() {
   const { selectedClass } = useClass()
@@ -14,9 +15,8 @@ export default function Books() {
         <h2 className="section-title">Class {selectedClass} Textbooks</h2>
         <p className="text-indigo-100/80 text-sm">Official and reference books for Class {selectedClass}.</p>
       </div>
-      <ResourceList items={filteredBooks} emptyText={`No books available for Class ${selectedClass}`} />
+      {/* <ResourceList items={filteredBooks} emptyText={`No books available for Class ${selectedClass}`} /> */}
+      <UnderDevelopment />
     </div>
   )
 }
-
-
