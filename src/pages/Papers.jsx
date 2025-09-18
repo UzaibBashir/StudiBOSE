@@ -1,13 +1,13 @@
 import ResourceList from '../shared/ResourceList.jsx'
 import { useClass } from '../context/ClassContext.jsx'
-import { papers } from '../resources/data.js'
+import { resources } from '../resources/data.js'
 import UnderDevelopment from './UnderDevelopment.jsx'
 
 export default function Papers() {
   const { selectedClass } = useClass()
   
   // Filter papers based on selected class
-  const filteredPapers = papers.filter(paper => paper.class === selectedClass)
+  const filteredPapers = resources[`class${selectedClass}`]?.papers || []
 
   return (
     <div className="space-y-4">

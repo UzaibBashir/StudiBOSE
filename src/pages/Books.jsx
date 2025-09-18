@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useClass } from '../context/ClassContext.jsx'
 import ResourceList from '../shared/ResourceList.jsx'
-import { notes } from '../resources/data.js'
+import { resources } from '../resources/data.js'
 
 const categories = [
   { id: 'ncert', title: 'NCERT', icon: '📚' },
@@ -10,22 +10,22 @@ const categories = [
   { id: 'reference', title: 'Reference Materials', icon: '📝' }
 ]
 
-export default function Notes() {
-  const { selectedClass } = useClass()
-  const [selectedCategory, setSelectedCategory] = useState('ncert')
-  
-  // Filter notes based on selected class
-  const filteredNotes = notes.filter(note => note.class === selectedClass)
+export default function Books() {
+  const { selectedClass } = useClass();
+  const [selectedCategory, setSelectedCategory] = useState('jkbose');
 
-  // Categorize notes based on type
-  const categorizedNotes = {
-    ncert: filteredNotes.filter(note => note.type === 'Chapter Notes' || (note.subject === 'Mathematics' && note.type !== 'JKBOSE Textbook') || (note.subject === 'Science' && note.type !== 'JKBOSE Textbook')),
-    jkbose: filteredNotes.filter(note => note.type === 'JKBOSE Textbook'),
-    solutions: filteredNotes.filter(note => note.type === 'Solutions'),
-    reference: filteredNotes.filter(note => note.type === 'Reference Materials' || note.type === 'Literature Notes' || note.type === 'Grammar Notes')
-  }
+  // Get books for selected class
+  const books = resources[`class${selectedClass}`]?.books || [];
 
-  const currentNotes = categorizedNotes[selectedCategory] || []
+  // Categorize books based on type
+  const categorizedBooks = {
+    jkbose: books.filter(book => book.type === 'JKBOSE Textbook'),
+    ncert: [], // Add logic if NCERT books are present in resources
+    solutions: [], // Add logic if solutions are present in resources
+    reference: [] // Add logic if reference materials are present in resources
+  };
+
+  const currentBooks = categorizedBooks[selectedCategory] || [];
 
   return (
     <div className="space-y-4">
@@ -49,7 +49,7 @@ export default function Notes() {
             <div className="text-2xl mb-2">{category.icon}</div>
             <div className="text-sm font-medium">{category.title}</div>
             <div className="text-xs opacity-70 mt-1">
-              {categorizedNotes[category.id]?.length || 0} items
+              {categorizedBooks[category.id]?.length || 0} items
             </div>
           </button>
         ))}
@@ -62,7 +62,7 @@ export default function Notes() {
           {categories.find(c => c.id === selectedCategory)?.title}
         </h3>
         <ResourceList 
-          items={currentNotes} 
+          items={currentBooks} 
           emptyText={`No ${categories.find(c => c.id === selectedCategory)?.title} available for Class ${selectedClass}`} 
         />
       </div>

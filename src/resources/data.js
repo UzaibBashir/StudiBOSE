@@ -4,6 +4,114 @@
   // Class 11 Books
 // New resources export
 export const resources = {
+  class9: {
+    books: [
+      {
+        id: 'jkb-9-english',
+        title: 'English (Tulip Series)',
+        subject: 'English',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Class9thEnglish.pdf',
+      },
+      {
+        id: 'jkb-9-hindi',
+        title: 'Hindi',
+        subject: 'Hindi',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Class9thHindi.pdf',
+      },
+      {
+        id: 'jkb-9-urdu',
+        title: 'Urdu',
+        subject: 'Urdu',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Class9thUrdu.pdf',
+      },
+      {
+        id: 'jkb-9-math1',
+        title: 'Mathematics (Chapters 1 to 7)',
+        subject: 'Mathematics',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Math%20IX%201%20to%207%20Chapter%20x%2016%20-2024.pdf',
+      },
+      {
+        id: 'jkb-9-math2',
+        title: 'Mathematics (Chapters 8 to 11)',
+        subject: 'Mathematics',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Math%20IX%208%20to%2011%20Chapter%20x%2016%20-2024.pdf',
+      },
+      {
+        id: 'jkb-9-science',
+        title: 'Science',
+        subject: 'Science',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Class9thScience.pdf',
+      },
+      {
+        id: 'jkb-9-social',
+        title: 'Social Studies',
+        subject: 'Social Studies',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: '', // No direct link found
+      },
+      {
+        id: 'jkb-9-history',
+        title: 'History',
+        subject: 'History',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Class%209th%20History.pdf',
+      },
+      {
+        id: 'jkb-9-geography',
+        title: 'Geography',
+        subject: 'Geography',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Class9thgeography.pdf',
+      },
+      {
+        id: 'jkb-9-economics',
+        title: 'Economics',
+        subject: 'Economics',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/TextbookEconomicsClass%209th.pdf',
+      },
+      {
+        id: 'jkb-9-kashmiri',
+        title: 'Kashmiri',
+        subject: 'Kashmiri',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: 'https://jkbose.nic.in/pdf/Class9thKashmiri.pdf',
+      },
+      {
+        id: 'jkb-9-political1',
+        title: 'Political Science: Democratic Politics -I Part 1',
+        subject: 'Political Science',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: '', // No direct link found
+      },
+      {
+        id: 'jkb-9-political2',
+        title: 'Political Science: Democratic Politics -I Part 2',
+        subject: 'Political Science',
+        class: '9',
+        type: 'JKBOSE Textbook',
+        driveUrl: '', // No direct link found
+      },
+    ],
+  },
   class10: {
     books: [
       {
